@@ -6,3 +6,10 @@
     </vue-typed-js>
   </div>
 </template>
+
+<style scoped>
+.about {
+  height: 100vh;
+}
+</style>
+
