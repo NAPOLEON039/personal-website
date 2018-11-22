@@ -12,7 +12,14 @@
 </template>
 
 <script>
-
+import { bus } from './main.js'
+export default {
+  mounted() {
+    const nav = document.querySelector('nav');
+    const height = nav.offsetHeight;
+    bus.$emit('navHeight', height);
+  }
+}
 </script>
 
 <style scoped>

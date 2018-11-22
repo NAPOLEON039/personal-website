@@ -7,6 +7,8 @@ import VueTypedJs from 'vue-typed-js'
 Vue.config.productionTip = false
 Vue.use(VueTypedJs);
 
+export const bus = new Vue();
+
 new Vue({
   router,
   render: h => h(App)
